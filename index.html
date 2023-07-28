@@ -72,8 +72,18 @@
   <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
   <script src="./script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/flipdown@0.3.2/src/flipdown.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.js'></script>
 
   <script>
+
+    
+$('body').ripples({
+  resolution: 600,
+  dropRadius: 30,
+  perturbance: 0.05,
+});
+
+
     const customCursor = document.getElementById('custom-cursor');
 
     const colors = ['red', 'blue', 'green', 'yellow'];
