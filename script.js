@@ -169,7 +169,7 @@ function resetAndBounceBouncers() {
     bouncers[i].bounce();
   }
 
-  // setTimeout(resetAndBounceBouncers, 7000);
+  setTimeout(resetAndBounceBouncers, 7000);
 }
 
 var bouncers = [];

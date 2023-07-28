@@ -32,6 +32,12 @@ p {
   flex-direction: column;
 }
 
+@media (max-width: 768px) {
+  .container {
+    margin-top: 40%; /* Áp dụng margin-top là 40% khi xem trên điện thoại */
+  }
+}
+
 #flipdown {
   margin-top: 15px;
 }
